@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cliente</title>
+    <style>
+        body {
+            background-color: lavender;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #content {
+            text-align: center;
+            padding: 20px;
+            box-shadow: 5px 5px 10px #888888;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: purple;
+        }
+
+        p {
+            color: indigo;
+        }
+
+        button {
+            background-color: plum;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <h1>Petición del cliente</h1>
+        <p>Instalaciones deportivas, lo he elegido porque me gusta el deporte</p>
+        <p>Instalación: es una búsqueda de todas las instalaciones</p>
+        <p>Piscinas Cubiertas: se muestran sólo las piscinas que están cubiertas</p>
+        <p>Comparación pistas: es una comparación de pistas polideportivas cubiertas y descubiertas</p>
+
+        <button id="but1" onclick="window.location.href='/instalaciones'">Instalaciones</button>
+        <button id="but2" onclick="window.location.href='/piscinas_cubiertas'">Piscinas cubiertas</button>
+        <button id="but3" onclick="window.location.href='/comparacion_pistas'">Comparación pistas</button>
+    </div>
+</body>
+
+</html>
